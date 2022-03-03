@@ -105,7 +105,7 @@ class BasicoPage extends StatelessWidget {
   Widget _crearTexto() {
     return SafeArea(
         child: Container(
-      padding: EdgeInsets.symmetric(horizontal: 40.0),
+      padding: EdgeInsets.symmetric(horizontal: 40.0, vertical: 15.0),
       child: Text(
         'Commodo nisi commodo reprehenderit laboris sunt veniam do aliqua. Velit anim elit aliquip pariatur cupidatat. Sit laborum tempor duis do. Laborum commodo laborum excepteur proident quis commodo duis. Quis incididunt labore dolor reprehenderit aute consequat in. Nostrud aliqua exercitation consequat id commodo officia et deserunt consequat sunt',
         textAlign: TextAlign.justify,
